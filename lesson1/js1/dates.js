@@ -46,4 +46,8 @@ if(weekD==5){
   document.querySelector(".banner").style.display="block";
 }
 
-document.querySelector('#copyrightyear').innerText = new Date().getFullYear();
+// declare and instantiate a variable to hold the current year
+const currentYear = 2021;
+
+// place the value of the current year variable into the HTML file
+document.querySelector("#copyrightyear").textContent = currentYear;
