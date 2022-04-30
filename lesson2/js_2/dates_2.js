@@ -1,11 +1,3 @@
-// declare and instantiate a variable to hold the current year
-const currentYear = 2022;
-
-// place the value of the current year variable into the HTML file
-document.querySelector("#copyrightyear").textContent = currentYear;
-
-
-
 var objToday = new Date(),
   weekday = new Array(
     "Sunday",
@@ -54,4 +46,8 @@ if(weekD==5){
   document.querySelector(".banner").style.display="block";
 }
 
+// declare and instantiate a variable to hold the current year
+const currentYear = 2021;
 
+// place the value of the current year variable into the HTML file
+document.querySelector("#copyrightyear").textContent = currentYear;

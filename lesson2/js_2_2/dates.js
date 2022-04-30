@@ -4,8 +4,6 @@ const currentYear = 2022;
 // place the value of the current year variable into the HTML file
 document.querySelector("#copyrightyear").textContent = currentYear;
 
-
-
 var objToday = new Date(),
   weekday = new Array(
     "Sunday",

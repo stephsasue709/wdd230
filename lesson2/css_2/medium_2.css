@@ -1,0 +1,50 @@
+@media only screen and (min-width: 760px) {
+    
+
+    header {
+        
+        text-align: center;
+        background-color: rgb(40, 58, 74);
+        color: antiquewhite;
+    }
+
+    main.content {
+        column-count: 2;
+        display: inline;
+        display: ;
+        column-rule: 1px solid #ddd;
+        margin: 5px auto;
+    }
+
+    div figure {
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+
+    main.content {
+        clear: both;
+        
+        
+    }
+
+    div.website_1 figure {
+        margin-left: 2px;
+    }
+
+    div.website_2 figure {
+        margin-left: 2px;
+    }
+
+    div.website_3 figure {
+        margin-left: 2px auto;
+    }
+  
+    footer {
+        text-align: center;
+        background-color: rgb(40, 58, 74);
+        color: antiquewhite;
+
+    }
+
+} /* end of a media query */
