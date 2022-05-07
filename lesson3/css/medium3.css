@@ -1,0 +1,50 @@
+@media only screen and (min-width: 760px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .typtab {
+        font-size: 16px;
+    }
+    .typtab tr td {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .typtab tr th {
+        padding: 12px;
+    }
+
+    .tabcolor tr td {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .typtab tr td:nth-child(2), 
+    .typtab tr th:nth-child(2),
+    .typtab tr td:nth-child(4), 
+    .typtab tr th:nth-child(4),
+    .typtab tr td:nth-child(5), 
+    .typtab tr th:nth-child(5) {
+	    display: revert;
+    }
+    .tabcolor tr td:nth-child(1), 
+    .tabcolor tr td:nth-child(5) {
+        display: revert;
+    }
+
+}
