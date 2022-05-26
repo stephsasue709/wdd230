@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Chamber of Commerce Home Page</title>
-    <link rel="stylesheet" href="css4/normalize.css">
-    <link rel="stylesheet" href="css4/small.css">
-    <link rel="stylesheet" href="css4/medium.css">
-    <link rel="stylesheet" href="css4/large.css">
-    <script defer src="js4/dates.js"></script>
-    <script defer src="js4/style.js"></script>
+    <link rel="stylesheet" href="css5/normalize.css">
+    <link rel="stylesheet" href="css5/small.css">
+    <link rel="stylesheet" href="css5/medium.css">
+    <link rel="stylesheet" href="css5/large.css">
+    <script defer src="js5/dates.js"></script>
+    <script defer src="js5/style.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,26 @@
     
     <!-- HEADER HERE -->
 	<header>
-        <img src="images4/logo.png" alt="logo">
-        
-    <div>
+       <div>
+        <picture class="logo">
+        <img src="images5/logo.png" alt="logo">
+        </picture>
+    <section class="slang">
      <h1>Intercom</h1>
      <h2>For a Better Future</h2>
+    </section>
+</div>
+    
+    <div class="date"> </div>
+
+    <div class="social"> 
+     <a target="blank" href="https://www.facebook.com/"> <img src="images5/facebook.png">  </a>
+     <a target="blank" href="https://www.twitter.com/"> <img src="images5/twitter.png">  </a>
     </div>
-        </header>  
+    </header>  
+
+
+
     <nav>
 
         <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
@@ -43,34 +56,45 @@
     <main class="content">
       <div class="event">
           <h3>Event</h3>
-          <p> Quickly whiteboard cross-platform ROI whereas enterprise. </p>
+          <picture>
+            <img src="images5/event.jpg" alt="Event">
+        </picture>
       </div>
       
       <div div class="weather">
           <h3>Current Weather</h3>
-          <p>
-              Temperature:
-              Condition: 
-              Wind Speeed:
-              Wind Chill:
-          </p>
+          <picture>
+              <img src="images5/kweather.webp" alt="weather image">
+          </picture>
+          <ul>
+              <li>Temperature:</li>
+              <li>Condition: </li>
+              <li>Wind Speeed: </li>
+              <li>Wind Chill: </li>
+          </ul>
       </div>
 
       <div div class="image">
-       <figure>
-           <img src="images4/haiti_img.jpg" alt="hero_image">
-           <button>Join</button>
-       </figure>
+       <picture>
+           <img src="images5/haiti_img.jpg" alt="hero_image">
+       </picture>
+       <div class="action">
+        <button>Join</button>
+       </div>
       </div>
 
       <div div class="sp1">
           <h3>Spotlight 1</h3>
-          <p>Quickly whiteboard cross-platform whereas enterprise</p>
+          <picture>
+              <img src="images5/spotlight.png" alt="spotlight 1">
+          </picture>
       </div>
 
       <div div class="sp2">
           <h3>Spotlight 2</h3>
-          <p>Quickly whiteboard cross-platform whereas enterprise</p>
+          <picture>
+            <img src="images5/spotlight2.jpg" alt="spotlight 2">
+        </picture>
       </div>
 
       <div div class="join">
@@ -88,7 +112,7 @@
     <footer>
         <div class="adress">
             <figure></figure>
-        <img src="images4/logo.png" alt="logo">
+        <img src="images5/logo.png" alt="logo">
     </figure>
 
         <p>
