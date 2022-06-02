@@ -1,0 +1,25 @@
+
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    margin: 20px auto;
+    width: 400px;
+   background-color: rgb(220, 214, 214);
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    padding: 0.5em;
+}

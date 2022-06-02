@@ -1,0 +1,13 @@
+@media screen and (min-width: 64em){
+
+    
+    body{
+        background-color: rgb(220, 214, 214);
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}

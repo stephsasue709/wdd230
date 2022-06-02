@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <title>Progressive loading of images</title>
+  <meta name="description" content="IE=edge">
+  <link href="css7/lazyload.css" rel="stylesheet">
+ 
+  
+
+  <script defer src="js7/lazyload.js"></script>
+ 
+
+</head>
+
+<body>
+    <h1>  Progressive Loading of Images  </h1>
+
+    <main>
+        
+    <picture>
+        <img src="images7/placeholder.jpg" data-src="images7/image_1.jpg" loading="lazy" alt="Animal">
+    </picture>
+
+
+    <picture>
+        <img src="images7/placeholder.jpg" loading="lazy" data-src="images7/image_2.jpg" alt="Fall">
+    </picture>
+
+
+    <picture>
+        <img src="images7/placeholder.jpg" loading="lazy" data-src="images7/images_3.jpg" alt="Island">
+    </picture>
+
+
+    <picture>
+        <img src="images7/placeholder.jpg" data-src="images7/image_4.jpg" alt="Little girl">
+    </picture>
+
+
+    <picture>
+        <img src="images7/placeholder.jpg" data-src="images7/image_5.jpg" alt="Sunset">
+    </picture>
+
+
+    <picture>
+        <img src="images7/placeholder.jpg" data-src="images7/image_6.jpg" alt="Snow">
+    </picture>
+
+</main>
+</body>
+</html>
