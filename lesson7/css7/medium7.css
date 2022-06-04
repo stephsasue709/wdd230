@@ -1,8 +1,8 @@
 @media only screen and (min-width: 32.5em) {
 
 
-    body{
-        background-color: rgb(220, 214, 214);
+    .social {
+        margin-left: 130px;
     }
 
     .content {
@@ -11,10 +11,20 @@
 
     }
 
-    img {
-        width: 200px;
-        height: 300px;
-      
-        margin: auto;
+    footer{
+        background-color: #ddd;
+        padding: 5px;
+        text-align: center;
+        
     }
+    
+    footer img{
+        width: 60px;
+    }
+    
+    .reference{
+        text-align: center;
+    }
+
+    
 }

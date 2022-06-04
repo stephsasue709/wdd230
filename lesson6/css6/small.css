@@ -11,8 +11,6 @@ header {
     display: grid;
     width: 100%;
     grid-template-columns: 125px auto;
-    
-    
 }
 
 
@@ -35,11 +33,25 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-main picture img {width: 100%;}
-main picture {
-    width: 100%;
-    margin: 0;
+.content {
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 20px auto;
 }
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+main picture img {
+    width: 400px;
+    height: 300px;
+    padding: 1em;
+    margin: auto;
+}
+
+
 
 .logo {
     grid-column: 1 / 2;
