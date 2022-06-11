@@ -1,10 +1,3 @@
-function toggleMenu() {
-    document.getElementById("menu").classList.toggle("navigation");
-}
-
-
-
-
 // declare and instantiate a variable to hold the current year
 const currentYear = 2022;
 

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chamber of Commerce Join Page</title>
+    <link rel="stylesheet" href="css8/normalize.css">
+    <link rel="stylesheet" href="css8/small.css">
+    <link rel="stylesheet" href="css8/medium.css">
+    <link rel="stylesheet" href="css8/large.css">
+    <script defer src="js8/dates.js"></script>
+    <script defer src="js8/style.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- HEADER HERE -->
+	<header>
+       <div>
+        <picture class="logo">
+        <img src="images8/logo.png" alt="logo">
+        </picture>
+    <section class="slang">
+     <h1>Intercom</h1>
+     <h2>For a Better Future</h2>
+    </section>
+</div>
+    
+    <div class="date"> </div>
+
+    <div class="social"> 
+     <a target="blank" href="https://www.facebook.com/"> <img src="images8/facebook.png" alt="facebook_icon">  </a>
+     <a target="blank" href="https://www.twitter.com/"> <img src="images8/twitter.png" alt="twitter_icon">  </a>
+    </div>
+    </header>  
+
+
+
+    <nav>
+
+        <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        
+        <ul id="menu" class="navigation">
+            <li><a href="./">Discover</a></li>
+            <li class="active"><a href="index.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="form_grid">
+            <div id="feedback"></div>
+            <form method="get" action="message.html">
+                
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                       <label class="head">
+                           Full Name:* <input type="text" name="full_name" required>
+                        </label> 
+                       <label class="head">
+                           Email* <input type="email" name="email" placeholder="intercom@gmail.com" required>
+                        </label>
+                       <label class="head">
+                           Phone* <input type="tel" name="phone" placeholder="1235551234" required>
+                        </label>
+                       <label class="head">
+                           Zip Code* <input type="text"  name="zipcode" placeholder="123345" required>
+                        </label>
+                    </fieldset>
+
+                    
+                    
+                    
+
+                    <fieldset>
+                        <legend>Membership Information</legend>
+                        <div>Select a membership level:</div> 
+                        <label class="membership_level"><input type="radio" name="membership" value="yes"> NP (Membership is for non profit organizations and there is no fee)</label>
+                        <label class="membership_level"><input type="radio" name="membership" value="maybe"> Bronze</label>
+                        <label class="membership_level"><input type="radio" name="membership" value="no"> Silver</label>
+                        <label class="membership_level"><input type="radio" name="membership" value="no"> Gold</label>
+        
+                        
+                        <div>Additional Information:</div> 
+                        <label for="multiLineInput">
+                            <textarea rows="5" cols="50" id="multiLineInput" placeholder="Business description..."></textarea>
+                          </label> 
+                    </fieldset>
+                      
+                
+                        <button type="submit">Submit your application</button>
+                    
+                
+            </form>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="adress">
+            <figure>
+        <img src="images8/logo.png" alt="logo">
+    </figure>
+
+        <p>
+            61 Fleuriot Street
+            Tabarre, Ouest HT6123
+        </p>
+        
+    </div>
+        
+        <div class="contact">
+          <p>Email: intercom@gmail.com</p>
+          <p>Tel: +509 2456-5433</p>
+        </div>  
+        
+        <div class="reference">
+        <p> &copy;<span id="copyrightyear"></span> | Stephanie S. Noel - <a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a>
+    
+            <br> <p><span id="modify"></span></p>
+        </div> 
+    </footer>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>    
+WebFont.load({
+    google: {
+      families: [
+        'Ubuntu', sans-serif
+      ]
+    }
+  });
+</script>
+
+
+    </body>
+    </html>
