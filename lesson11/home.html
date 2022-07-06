@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chamber of Commerce Home Page</title>
+    <link rel="stylesheet" href="css5/normalize.css">
+    <link rel="stylesheet" href="css5/small.css">
+    <link rel="stylesheet" href="css5/medium.css">
+    <link rel="stylesheet" href="css5/large.css">
+    <script defer src="js5/dates.js"></script>
+    <script defer src="js5/style.js"></script>
+    <script defer src="js5/weather.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- HEADER HERE -->
+	<header>
+       <div>
+        <picture class="logo">
+        <img src="images5/logo.png" alt="logo">
+        </picture>
+    <section class="slang">
+     <h1>Intercom</h1>
+     <h2>For a Better Future</h2>
+    </section>
+</div>
+    
+    <div class="date"> </div>
+
+    <div class="social"> 
+     <a target="blank" href="https://www.facebook.com/"> <img src="images5/facebook.png" alt="facebook_icon">  </a>
+     <a target="blank" href="https://www.twitter.com/"> <img src="images5/twitter.png" alt="twitter_icon">  </a>
+    </div>
+    </header>  
+
+
+
+    <nav>
+
+        <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        
+        <ul id="menu" class="navigation">
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <div class="content">
+      <section class="event">
+          <h3>Event</h3>
+          <picture>
+            <img src="images5/event_1.png" alt="Event">
+        </picture>
+        <p>Save the date for our annual gala in Naples, <br>
+            FL! Tickets are available for purchase now <br>
+            at the link here or the button below. Sponsorship<br>
+            opportunities can be downloaded here. For questions,<br>
+            email stephanie@hopeforhaiti.com.</p>
+      </section>
+      
+      <section class="weather">
+          <h3>Current Weather</h3>
+          <picture>
+              <img src="images5/kweather.webp" alt="weather image">
+          </picture>
+          <ul> 
+            <p>Currently: <span id="currently">...</span></p>
+            <p>High: <span><span id="high"></span> &#8457;</span></p>
+            <p>Wind Chill: <span><span id="windChill">...</span> &#8457;</span></p>
+            <p>Humidity: <span id="humidity">...</span></p>
+            <p>Wind Speed: <span><span id="speed">...</span> mph</span></p>
+     </ul> 
+      </section>
+
+      <section class="image">
+        <div class="citadelle">
+        <h2>Citadelle La Ferriere</h2>
+        <img
+          src="images5/citadelle.jpg"
+          alt="Citadelle La Ferriere"
+        />
+    </div>
+        <div class="jacmel">
+        <h2>Jacmel</h2>
+        <img
+          src="images5/jacmel.jpg"
+          alt="Jacmel Lakou NY"
+        />
+    </div>
+        <form action="join.html">
+          <button type="submit">Join the Chamber</button>
+        </form>
+      </section>
+
+      <section class="sp1">
+          <h3>Spotlight 1</h3>
+          <picture>
+              <img src="images5/event_2.webp" alt="spotlight 1">
+          </picture>
+          <p>Happening on, 1st June, 10:00 am, HAITI TECH SUMMIT 2022 in Bourdon<br>
+             This October, 10th October, 12:00 pm, HAITI TECH WEEK 2022 in port au prince<br>
+             Also check out other Business Events in PORT-AU-PRINCE, Festivals in PORT-AU-PRINCE, Parties in PORT-AU-PRINCE.</p>
+      </section>
+
+      <section class="sp2">
+          <h3>Spotlight 2</h3>
+          <picture>
+            <img src="images5/event_3.webp" alt="spotlight 2">
+            <p>A new era of consumer engagement has arrived and 
+               startups are creating new systems using technology
+               to engage and influence customers. - S.N<br>
+
+                About this Event<br>
+                
+                2 hours of instructor-led training (online webinar)<br> 
+                Your mHealth Project evaluation <br> 
+                Hands-out materials<br>
+                </p>
+        </picture>
+      </section>
+
+      <div class="join">
+        <h3>Join</h3>
+        <p>Quickly whiteboard cross-platform whereas enterprise</p>
+    </div>
+
+    <section class="release">
+        <h3>News Release</h3>
+        <p>Quickly whiteboard cross-platform whereas enterprise</p>
+    </section>
+    </div>
+    </main>
+
+
+    <footer>
+        <div class="adress">
+            <figure>
+        <img src="images5/logo.png" alt="logo">
+    </figure>
+
+        <p>
+            61 Fleuriot Street
+            Tabarre, Ouest HT6123
+        </p>
+        
+    </div>
+        
+        <div class="contact">
+          <p>Email: intercom@gmail.com</p>
+          <p>Tel: +509 2456-5433</p>
+        </div>  
+        
+        <div class="reference">
+        <p> &copy;<span id="copyrightyear"></span> | Stephanie S. Noel - <a href="https://www.byui.edu/online" target="_blank"> BYUI Online Learning </a>
+    
+            <br> <p><span id="modify"></span></p>
+        </div> 
+    </footer>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>    
+WebFont.load({
+    google: {
+      families: [
+        'Ubuntu', sans-serif
+      ]
+    }
+  });
+</script>
+
+</body>
+</html>

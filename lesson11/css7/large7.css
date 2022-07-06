@@ -1,0 +1,136 @@
+@media only screen and (min-width: 64em) {
+    
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+
+    header{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .logo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .slang {
+        margin-left: 140px;
+        margin-top: -55px;
+        font-size: 16px;
+    }
+
+    .date {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        color: #ffffff;
+        border: solid #4a4a6bc9;
+        background-color: #4a4a6bc9;
+        text-align: center;
+        margin-right: 300px;
+    }
+
+    .social {
+        grid-column: 20 / 20;
+        grid-row: 1 / 2;
+    }
+
+
+    .social img {
+        width: 30px;
+        
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    nav ul {
+        display: flex;
+        margin: 3px;
+        padding: 0px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 15px;
+        flex: 1 1 auto; /* nav buttons span full width*/
+    }
+    nav ul li a {
+        padding: 15px;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    .navigation {
+        background-color: #767679c9;
+        height: 23px;
+    }
+
+    nav button {
+        display: none;
+    }
+    
+
+    main {
+        margin: 50px auto;
+    }
+
+    main picture img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    main picture:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(0.8);
+    }
+
+    .contact {
+        margin-left: 1150px;
+        margin-top: -128px;
+    }
+
+    footer{
+        background-color: #ddd;
+        padding: 5px;
+        
+    }
+    
+    footer img{
+        width: 60px;
+    }
+
+    .address {
+        margin-right: 85%;
+    }
+
+    .address p {
+        text-align: center;
+    }
+    
+    .reference{
+        text-align: center;
+    }
+    
+    .contact {
+        margin-left: 1150px;
+        margin-top: -128px;
+    }
+
+    
+
+    
+
+    
+}

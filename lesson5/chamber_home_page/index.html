@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css5/large.css">
     <script defer src="js5/dates.js"></script>
     <script defer src="js5/style.js"></script>
+    <script defer src="js5/weather.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,65 +47,99 @@
         <button class="menu" onclick="toggleMenu()">&#9776; Menu</button>
         
         <ul id="menu" class="navigation">
-            <li><a href="./">Discover</a></li>
-            <li class="active"><a href="index.html">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="home.html">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <main class="content">
-      <div class="event">
+    <main>
+
+    <div class="content">
+      <section class="event">
           <h3>Event</h3>
           <picture>
-            <img src="images5/event.jpg" alt="Event">
+            <img src="images5/event_1.png" alt="Event">
         </picture>
-      </div>
+        <p>Save the date for our annual gala in Naples, <br>
+            FL! Tickets are available for purchase now <br>
+            at the link here or the button below. Sponsorship<br>
+            opportunities can be downloaded here. For questions,<br>
+            email stephanie@hopeforhaiti.com.</p>
+      </section>
       
-      <div class="weather">
+      <section class="weather">
           <h3>Current Weather</h3>
           <picture>
               <img src="images5/kweather.webp" alt="weather image">
           </picture>
-          <ul>
-              <li>Temperature:</li>
-              <li>Condition: </li>
-              <li>Wind Speeed: </li>
-              <li>Wind Chill: </li>
-          </ul>
-      </div>
+          <ul> 
+            <p>Currently: <span id="currently">...</span></p>
+            <p>High: <span><span id="high"></span> &#8457;</span></p>
+            <p>Wind Chill: <span><span id="windChill">...</span> &#8457;</span></p>
+            <p>Humidity: <span id="humidity">...</span></p>
+            <p>Wind Speed: <span><span id="speed">...</span> mph</span></p>
+     </ul> 
+      </section>
 
-      <div class="image">
-       <picture>
-           <img src="images5/haiti_img.jpg" alt="hero_image">
-       </picture>
-       <div class="action">
-        <button>Join</button>
-       </div>
-      </div>
+      <section class="image">
+        <div class="citadelle">
+        <h2>Citadelle La Ferriere</h2>
+        <img
+          src="images5/citadelle.jpg"
+          alt="Citadelle La Ferriere"
+        />
+    </div>
+        <div class="jacmel">
+        <h2>Jacmel</h2>
+        <img
+          src="images5/jacmel.jpg"
+          alt="Jacmel Lakou NY"
+        />
+    </div>
+        <form action="join.html">
+          <button type="submit">Join the Chamber</button>
+        </form>
+      </section>
 
-      <div class="sp1">
+      <section class="sp1">
           <h3>Spotlight 1</h3>
           <picture>
-              <img src="images5/spotlight.png" alt="spotlight 1">
+              <img src="images5/event_2.webp" alt="spotlight 1">
           </picture>
-      </div>
+          <p>Happening on, 1st June, 10:00 am, HAITI TECH SUMMIT 2022 in Bourdon<br>
+             This October, 10th October, 12:00 pm, HAITI TECH WEEK 2022 in port au prince<br>
+             Also check out other Business Events in PORT-AU-PRINCE, Festivals in PORT-AU-PRINCE, Parties in PORT-AU-PRINCE.</p>
+      </section>
 
-      <div class="sp2">
+      <section class="sp2">
           <h3>Spotlight 2</h3>
           <picture>
-            <img src="images5/spotlight2.jpg" alt="spotlight 2">
+            <img src="images5/event_3.webp" alt="spotlight 2">
+            <p>A new era of consumer engagement has arrived and 
+               startups are creating new systems using technology
+               to engage and influence customers. - S.N<br>
+
+                About this Event<br>
+                
+                2 hours of instructor-led training (online webinar)<br> 
+                Your mHealth Project evaluation <br> 
+                Hands-out materials<br>
+                </p>
         </picture>
-      </div>
+      </section>
 
       <div class="join">
         <h3>Join</h3>
         <p>Quickly whiteboard cross-platform whereas enterprise</p>
     </div>
 
-    <div class="release">
+    <section class="release">
         <h3>News Release</h3>
         <p>Quickly whiteboard cross-platform whereas enterprise</p>
+    </section>
     </div>
     </main>
 

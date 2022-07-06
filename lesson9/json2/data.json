@@ -1,0 +1,60 @@
+{
+  "company_reports": [
+      {
+        "name": "Créations Dorées",
+        "location": "Petion Ville",
+        "phone": 50934568040,
+        "website": "www.koukascloset.com",
+        "logo": "https://www.creationsdorees.com/"
+      },
+
+      {  
+        "name": "Komsi Like and Colorful Nomad",
+        "location": "USA",
+        "phone": 509372658,
+        "website": "https://www.komsilike.com/"
+      },
+    
+      {
+        "name": "TMMG Store",
+        "location": "Miami",
+        "phone": 9547246789,
+        "website": "www.paradisestore.com",
+        "logo": ""
+      },
+      
+      {
+        "name": "Koukas Closet",
+        "location": "Haiti",
+        "phone": 50934354,
+        "website": "www.koukascloset.com",
+        "logo": "https://couponseeker.com/koukas-closet-promo-codes/"
+      },
+      {
+        "name": "Bank of the Republic of Haiti",
+        "location": "Port-au-Prince",
+        "phone": 50934354,
+        "website": "https://www..com",
+        "logo": "https://couponseeker.com/koukas-closet-promo-codes/"
+      },
+      {
+        "name": "Haiti Made",
+        "location": "Port-au-Prince",
+        "phone": 50934354,
+        "website": "https://www.haitimade.com",
+      },
+      
+      {
+        "name": "Fanm Djanm",
+        "location": "Austin, TX",
+        "phone": "Not Available",
+        "website": "https://www.fanmdjanm.com",
+        
+      },
+      {
+        "name": "Le Nouvelliste",
+        "location": "Port-au-Prince",
+        "phone": 50934354,
+        "website": "https://www.lenouvelliste.com/"
+         
+      }

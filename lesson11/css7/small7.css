@@ -1,0 +1,220 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 1%;
+    background-color: #ddd;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 125px auto;
+    
+    
+}
+
+
+header nav main footer {
+    max-width: 960px;
+}
+
+header div {
+    margin-left: 5px;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+
+header img{
+    width: 130px;
+}
+
+
+header{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main picture img {width: 100%;}
+main picture {
+    width: 100%;
+    margin: 0;
+}
+
+
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.logo img {
+    width: 42px;
+}
+
+.slang {
+   font-size: 7px;
+   margin-left: 45px;
+   margin-top: -47px;
+   ;
+}
+
+.date {
+    text-align: center;
+    color: #160d0d;
+    margin-top: 70px;
+    
+    
+    
+}
+
+.social {
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    overflow: hidden;
+}
+
+.social img{
+    width: 100px;
+}
+
+
+.social img {
+    width: 50px;
+    
+}
+
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #010d22d4;	
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    margin: 15px;
+    padding: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+nav ul li {
+    padding: 15px;
+    flex: 1 1 auto; /* nav buttons span full width*/
+}
+nav ul li a {
+    padding: 15px;
+    font-size: 16px;
+    color: #ffffff;
+}
+nav a:hover {
+    color: #42475d;
+}
+
+.navigation {
+    background-color: #767679c9;
+    height: 23px;
+} 
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul li a{
+    display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+nav ul.navigation{
+    display: flex;
+}
+
+
+
+
+
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    margin: 3px;
+    padding: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+nav ul li {
+    padding: 15px;
+    flex: 1 1 auto; /* nav buttons span full width*/
+}
+nav ul li a {
+    padding: 15px;
+    font-size: 16px;
+    color: #ffffff;
+}
+nav a:hover {
+    color: #ffffff;
+}
+
+.navigation {
+    background-color: #C4D1F5;
+    height: 23px;
+}
+
+nav ul li.active a {
+    background-color: rgba(174, 176, 180, 0.475);
+    color: #fff;
+}
+
+
+footer{
+    background-color: #ddd;
+    padding: 5px;
+}
+
+footer img{
+    width: 60px;
+}
+
+.reference{
+    text-align: center;
+}
+
+.contact {
+    margin-left: 1150px;
+    margin-top: -128px;
+}
+
+
+
+figcaption {
+    text-align: center;
+}
+
+
+
+main picture img {
+    width: 400px;
+    height: 300px;
+    padding: 1em;
+    margin: auto;
+}

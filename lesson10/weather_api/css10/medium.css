@@ -1,0 +1,9 @@
+@media only screen and (min-width: 760px) {
+    
+    n.content {
+        grid-template-columns: 1fr 1fr;
+      }
+      .content section:nth-child(1) {
+        grid-column: span 2;
+      }
+}
