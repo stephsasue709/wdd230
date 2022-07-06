@@ -26,7 +26,7 @@ fetch(requestURL)
         let imageContainer = document.createElement('a')
         imageContainer.classList.add('image-container');
         let image = document.createElement('img');
-        image.classList.add('prophet-img');
+        image.classList.add('reports-img');
         
         h2.textContent = `${reports.name} ${reports.lastname}`;
         name.textContent = `Date of Birth: ${reports.name}`

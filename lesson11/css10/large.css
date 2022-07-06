@@ -92,7 +92,7 @@
         transform: scale(0.8);
     }
 
-    .cards {
+    main div.cards {
         grid-template-columns: repeat(4, 1fr);
     }
 

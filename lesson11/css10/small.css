@@ -211,7 +211,7 @@ body {
     box-shadow: 0 0 55px rgb(116, 113, 89);
 }
 
-.cards .prophet {
+.cards .reports {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -228,7 +228,7 @@ body {
     padding-top: 0;
 }
 
-.cards .prophet-img{
+.cards .reports-img{
     max-width: 50%;
 }
 
