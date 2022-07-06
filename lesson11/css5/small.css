@@ -286,7 +286,7 @@ footer img{
 }
 
 
-/* for lazy loading - blur images transition*/
+
 picture img[data-src] {
     filter: blur(0.2em);
   }
