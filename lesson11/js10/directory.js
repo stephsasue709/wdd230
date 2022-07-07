@@ -29,7 +29,7 @@ fetch(requestURL)
         image.classList.add('reports-img');
         
         h2.textContent = `${reports.name} ${reports.lastname}`;
-        name.textContent = `Name ${reports.name}`
+        name.textContent = `Name: ${reports.name}`
         location.textContent = `Location: ${reports.location}`
         phone.textContent = `Phone: ${reports.phone}`
         website.textContent = `Website: ${reports.website}`

@@ -203,6 +203,7 @@ body {
 
 
 .cards {
+    background-color: #364483cd;
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
