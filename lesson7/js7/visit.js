@@ -1,4 +1,3 @@
-
  /* USE LOCAL STORAGE TO DISPLAY DAYS SINCE LAST VISIT */
   
   // display element
