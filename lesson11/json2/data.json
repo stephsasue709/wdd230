@@ -59,6 +59,13 @@
         "phone": 50934354,
         "website": "https://www.lenouvelliste.com/",
         "imageurl": "images10/lenouvelliste.jpg"
-      }]
+      },
+      {
+        "name": "Gilbert Bigio Group",
+        "location": "Port-au-Prince",
+        "phone": "Not Available",
+        "website": "https://www.gbgroup.com/",
+        "imageurl": "images10/gbgroup.jpg"
+}]
   }
     

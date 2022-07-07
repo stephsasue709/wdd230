@@ -29,10 +29,10 @@ fetch(requestURL)
         image.classList.add('reports-img');
         
         h2.textContent = `${reports.name} ${reports.lastname}`;
-        name.textContent = `Date of Birth: ${reports.name}`
-        location.textContent = `Place of Birth: ${reports.location}`
-        phone.textContent = `Place of Birth: ${reports.phone}`
-        website.textContent = `Place of Birth: ${reports.website}`
+        name.textContent = `Name ${reports.name}`
+        location.textContent = `Location: ${reports.location}`
+        phone.textContent = `Phone: ${reports.phone}`
+        website.textContent = `Website: ${reports.website}`
         imageContainer.setAttribute('href', reports.imageurl);
         image.setAttribute('src', reports.imageurl);
         image.setAttribute('alt', `${reports.name} ${reports.lastname} - ${reports.order}`);
