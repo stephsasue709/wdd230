@@ -5,14 +5,15 @@
         "location": "Petion Ville",
         "phone": 50934568040,
         "website": "www.koukascloset.com",
-        "logo": "https://www.creationsdorees.com/"
+        "imageurl": "images10/crdore.jpg"
       },
 
       {  
         "name": "Komsi Like and Colorful Nomad",
         "location": "USA",
         "phone": 509372658,
-        "website": "https://www.komsilike.com/"
+        "website": "https://www.komsilike.com/",
+        "imageurl": "images10/komsilike.jpg"
       },
     
       {
@@ -20,7 +21,7 @@
         "location": "Miami",
         "phone": 9547246789,
         "website": "www.paradisestore.com",
-        "logo": ""
+        "imageurl": "images10/tmgstore.jpg"
       },
       
       {
@@ -28,20 +29,21 @@
         "location": "Haiti",
         "phone": 50934354,
         "website": "www.koukascloset.com",
-        "logo": "https://couponseeker.com/koukas-closet-promo-codes/"
+        "imageurl": "images10/koukas.jpg"
       },
       {
         "name": "Bank of the Republic of Haiti",
         "location": "Port-au-Prince",
         "phone": 50934354,
-        "website": "https://www..com",
-        "logo": "https://couponseeker.com/koukas-closet-promo-codes/"
+        "website": "https://www.brh.ht",
+        "imageurl": "images10/brh.jpg"
       },
       {
         "name": "Haiti Made",
         "location": "Port-au-Prince",
         "phone": 50934354,
         "website": "https://www.haitimade.com",
+        "imageurl": "images10/haitimade.jpg"
       },
       
       {
@@ -49,12 +51,21 @@
         "location": "Austin, TX",
         "phone": "Not Available",
         "website": "https://www.fanmdjanm.com",
-        
+        "imageurl": "images10/fanmdjanm.jpg"
       },
       {
         "name": "Le Nouvelliste",
         "location": "Port-au-Prince",
         "phone": 50934354,
-        "website": "https://www.lenouvelliste.com/"
-         
-      }
+        "website": "https://www.lenouvelliste.com/",
+        "imageurl": "images10/lenouvelliste.jpg"
+      },
+      {
+        "name": "Gilbert Bigio Group",
+        "location": "Port-au-Prince",
+        "phone": "Not Available",
+        "website": "https://www.gbgroup.com/",
+        "imageurl": "images10/gbgroup.jpg"
+}]
+  }
+    

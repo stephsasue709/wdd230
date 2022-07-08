@@ -65,11 +65,17 @@
                            Full Name:* <input type="text" name="full_name" required>
                         </label> 
                         <label class="head">
-                           Email* <input type="email" name="email" placeholder="intercom@gmail.com" required>
+                            Title: <input type="text" name="title" pattern="[A-Za-z\-\s]{8,}"/>
+                          </label>
+                        <label class="head">
+                           Email:* <input type="email" name="email" placeholder="intercom@gmail.com" required>
                         </label>
                         <label class="head">
                            Phone* <input type="tel" name="phone" placeholder="1235551234" required>
                         </label>
+                        <label class="head">
+                            Business Name:* <input type="text" name="business" required />
+                          </label>
                        <label class="head">
                            Zip Code* <input type="text"  name="zipcode" placeholder="123345" required>
                         </label>
@@ -93,6 +99,7 @@
                             <textarea rows="5" cols="50" id="multiLineInput" placeholder="Business description..."></textarea>
                         </label> 
                     </fieldset>
+                    <input type="hidden" id="DateTime" name="DateTime" value="" />
                     <button class="submit">Submit your application</button>
                 </form>
 

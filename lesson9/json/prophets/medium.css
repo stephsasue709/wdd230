@@ -1,8 +1,0 @@
-@media only screen and (min-width: 480px) {
-    .cards .prophet .prophet-img {
-        max-width: 100%;
-    }
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}

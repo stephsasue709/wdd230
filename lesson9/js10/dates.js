@@ -64,8 +64,3 @@ const weekD = d.getDay();
 if(weekD==5){
   document.querySelector(".banner").style.display="block";
 }
-
-function dateTime() {
-  return new Date().toLocaleString();
-}
-document.querySelector("#DateTime").value =  dateTime();

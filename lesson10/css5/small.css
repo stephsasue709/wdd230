@@ -189,83 +189,83 @@ nav ul li.active a {
     color: #fff;
 }
 
-form{
-    margin: 20px auto;
-    width: 500px;
-    border-style: solid groove;
-    border-radius: 10px;
-    box-shadow:0 0 30px rgb(79, 78, 78);
-  }
 
-  form fieldset{
-    margin: 2rem 0;
-    border-top: 2px solid #628fa6;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    width: 350px;
+
+
+main div.content {
+    display: grid;
 }
 
-  form label.membership_level{
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
- 
-form fieldset{
-    margin: 2rem 0;
-    border-top: 2px solid #628fa6;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    padding: .5rem 2%;
+main div.content {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
-form legend {
-    color: #628fa6;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-    font-size: 1.1rem;
-  
+.page_name {
+    margin: 0;
 }
 
-form label.head, form div{
-    display: block;
-    padding-top: 1rem;
-    color: #01263d;
-    font-size: 1rem;
-
-}
-form label.head input, form label.head select{
-  
-    display: block;
-    font-size: 1rem;
-    border: none;
-    border-radius: 10px;
-    padding: .75rem;
-    color: #555;
-    width: 300px;
-  
-    background-color: rgb(203, 222, 243);
-
+.event {
+    padding: 0.5rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 13 / 15;
+    
 }
 
-form label.range{
-    display: block;
-    padding-top: 1rem;
-    color: #01263d;
-    font-size: 1rem;
-
+.weather {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 15 / 17;
+    font-weight: 700;
 }
 
-form button {
-    width: 45%;
-    height: 35px;
-    margin-left: 120px;
+.image {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+}
+
+main picture img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
 }
 
 
+.sp1 {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 7 / 9;
+}
 
+.sp2 {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 9 / 11;
+}
+
+.join {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 11 / 13;
+}
+
+.release {
+    padding: 1rem;
+    border: 1px solid black;
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+}
 
 footer{
     background-color: #ddd;
@@ -286,4 +286,12 @@ footer img{
 }
 
 
-
+/* for lazy loading - blur images transition*/
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

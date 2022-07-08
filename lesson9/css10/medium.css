@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+
+  nav ul {
+      flex-flow: row wrap;
+  }
+
+  .social {
+      margin-left: 130px;
+  }
+
+
+  .cards .report .report-img {
+    max-width: 100%;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+
+  
+}
